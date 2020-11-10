@@ -55,9 +55,10 @@
     height: 100%;
     font-variant-caps: all-small-caps;
     font-size: 22px;
-    font-weight: bolder;
     letter-spacing: 1px;
     cursor: pointer;
+    font-weight: 100;
+    font-style: cursive;
   }
   
   .nav-links:hover {

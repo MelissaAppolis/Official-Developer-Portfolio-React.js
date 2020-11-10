@@ -8,6 +8,8 @@
     text-align: center;
     letter-spacing: 0.3rem;
     font-variant-caps: all-petite-caps;
+    font-weight: 100;
+    font-style: cursive;
   }
   
   .projects-container {
@@ -85,15 +87,12 @@
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
-    font-weight: 700;
+    font-weight: 500;
     color: #fff;
     background-color: rgb(114, 105, 106);
     box-sizing: border-box;
-    font-variant-caps: all-petite-caps;
-    font-size: 20px;
-    font-family: 'Noto Sans SC', sans-serif;
-    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Noto Sans SC', sans-serif; font-style: normal;
   }
   
   .projects-item-img {
@@ -129,6 +128,8 @@
     font-family: 'Noto Sans SC', sans-serif;
     text-align: center;
     letter-spacing: 1px;
+    font-weight: 200;
+    font-style: normal;
   }
   
   @media only screen and (min-width: 1200px) {
