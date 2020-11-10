@@ -4,7 +4,7 @@ import './About.css';
 function About() {
     return (
         <div className="about">
-            <h1>Just some info about me</h1>
+            <h1>About me</h1>
             <div className="about-box effect">
                 <p>I am a certified full stack web developer from Cape Town, South Africa. 
                     I have recently started my career as a web developer. I decided to make a bold move in my life 

@@ -163,3 +163,11 @@
       transition: 250ms;
     }
   }
+
+  @media screen and (max-width: 350px) {
+    .navbar-logo {
+      margin-left: 0px;
+      font-size: 30px;
+      left: -40px;
+    }
+}

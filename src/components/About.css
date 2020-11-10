@@ -7,6 +7,7 @@
 
 .about > h1 {
     margin-bottom: 60px;
+    font-size: 40px;
 }
 
 .about-box > p {
@@ -106,7 +107,6 @@
 
     .about > h1 {
         margin-bottom: 40px;
-        font-size: 35px;
     }
 
     .about-box {
@@ -125,33 +125,21 @@
         padding: 3rem 2rem;
     }
 
-    .about > h1 {
-        font-size: 25px;
-    }
-
-    .about-box > p{
+    .about-box > p {
         font-size: 24px;
     }
     
 }
 
 @media screen and (max-width: 611px) {
-    .about > h1 {
-        font-size: 30px;
-    }
-
-    .about-box > p{
+    .about-box > p {
         font-size: 23px;
     }
     
 }
 
 @media screen and (max-width: 555px) {
-    .about > h1 {
-        font-size: 24px;
-    }
-
-    .about-box > p{
+    .about-box > p {
         font-size: 21px;
     }
     
@@ -163,29 +151,38 @@
     }
     
     .about > h1 {
-        font-size: 23px;
+        font-size: 35px;
         margin-top: 10px;
+        margin-bottom: 20px;
     }
 
-    .about-box > p{
+    .about-box > p {
         font-size: 21px;
+    }
+
+    .about-box {
+        padding: 2rem;
     }
     
 }
 
 @media screen and (max-width: 350px) {
     .about {
-        padding: 1rem 0.5rem;
+        padding: 1rem 0.9rem;
     }
     
     .about > h1 {
-        font-size: 23px;
+        font-size: 30px;
         margin-top: 10px;
         margin-bottom: 25px;
     }
 
-    .about-box > p{
+    .about-box > p {
         font-size: 18px;
+    }
+
+    .about-box {
+        padding: 2rem;
     }
     
 }
