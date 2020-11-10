@@ -52,7 +52,7 @@ function Projects() {
                         <ProjectItem 
                             src={inventoryManagementApp} 
                             text="A fullstack MERN app that stores all inventory items in an interior design company's warehouse to easily manage stock. IDIM is based on admin and user access control. If a user is authenticated as an admin she is allowed to add, edit, delete a stock item as well as view the inventory list, however if a user is not authenticated as an admin she will only be allowed to view the inventory list. Passport.js is used for user authentication, a user is able to login via local, Google and Facebook authentication."
-                            label="INTERIOR DESIGN INVENTORY MANAGEMENT APP" 
+                            label="INVENTORY MANAGEMENT APP" 
                             path="https://github.com/MelissaAppolis/inventoryManagementApp"
                         />
                     </ul>

@@ -156,3 +156,36 @@
     }
     
 }
+
+@media screen and (max-width: 500px) {
+    .about {
+        padding: 1rem 0.5rem;
+    }
+    
+    .about > h1 {
+        font-size: 23px;
+        margin-top: 10px;
+    }
+
+    .about-box > p{
+        font-size: 21px;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .about {
+        padding: 1rem 0.5rem;
+    }
+    
+    .about > h1 {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .about-box > p{
+        font-size: 18px;
+    }
+    
+}
