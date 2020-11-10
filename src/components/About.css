@@ -1,0 +1,158 @@
+.about {
+    padding: 3rem 6rem;
+    background-color: #ccc;
+    text-align: center;
+    height: 630px;
+}
+
+.about > h1 {
+    margin-bottom: 60px;
+}
+
+.about-box > p {
+    font-family: 'Noto Sans SC', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.about-box {
+    background-color: #fff;
+    padding: 5rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.effect {
+    position:relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.effect:before, .effect:after {
+    content:"";
+    position:absolute;
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+
+.effect:after {
+    right:10px;
+    left:auto;
+    transform:skew(8deg) rotate(3deg);
+}
+
+@media screen and (max-width: 1133px) {
+    .about {
+        height: 640px;
+    }
+
+    .about-box {
+        width: 100%;
+    }
+
+    .about-box > p {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 954px) {
+    .about > h1 {
+        margin-bottom: 30px;
+    }
+
+    .about-box {
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .about-box > p{
+        font-size: 27px;
+    }
+    
+}
+
+@media screen and (max-width: 863px) {
+    .about {
+        padding: 3rem 3rem;
+    }
+
+    .about > h1 {
+        margin-bottom: 30px;
+    }
+
+    .about-box {
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .about-box > p{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 732px) {
+    .about {
+        padding: 4rem 2rem;
+    }
+
+    .about > h1 {
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+
+    .about-box {
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .about-box > p{
+        font-size: 23px;
+    }
+    
+}
+
+@media screen and (max-width: 643px) {
+    .about {
+        padding: 3rem 2rem;
+    }
+
+    .about > h1 {
+        font-size: 25px;
+    }
+
+    .about-box > p{
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 611px) {
+    .about > h1 {
+        font-size: 30px;
+    }
+
+    .about-box > p{
+        font-size: 23px;
+    }
+    
+}
+
+@media screen and (max-width: 555px) {
+    .about > h1 {
+        font-size: 24px;
+    }
+
+    .about-box > p{
+        font-size: 21px;
+    }
+    
+}

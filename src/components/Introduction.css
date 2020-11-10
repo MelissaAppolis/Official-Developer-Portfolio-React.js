@@ -1,0 +1,107 @@
+.introduction {
+    background: url('../images/introduction-image.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+.introduction > h1 {
+    color: white;
+    font-size: 120px;
+    margin-top: -50px;
+    font-weight: bolder;
+    font-variant-caps: all-petite-caps;
+    font-family: 'Poiret One';
+}
+
+.introduction-subheading {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.introduction-subheading > p {
+    margin-top: 4px;
+    color:wheat;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.introduction-btns {
+    margin-top: 32px;
+}
+
+.introduction-btns .btns {
+    margin: 6px;
+    cursor: pointer;
+}
+
+.fa-phone {
+    margin-left: 5px;
+}
+
+.btn--primary {
+    background-color: #fff;
+    color: #242424;
+    border: 1px solid #fff;
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+ 
+.btn--large:hover {
+    background-color: white;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+    .introduction > h1 {
+        font-size: 100px;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .introduction > h1 {
+        font-size: 60px;
+        margin-top: 70px;
+    }
+    
+    .introduction-subheading > p {
+        font-size: 18px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+
+    }
+
+    .btn--large {
+        padding: 12px 26px;
+        font-size: 16px;
+    }
+
+    .btns {
+        width: 100%;
+    }
+}
+
