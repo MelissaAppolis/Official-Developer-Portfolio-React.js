@@ -33,7 +33,7 @@ function Projects() {
                             src={weatherApp} 
                             text="This app was created using React.js and uses OpenWeatherMap API to display the weather in a city of the user's choice. The user is able to enter the name of the city of their choice to display the weather information"
                             label="WEATHER APP" 
-                            path="https://melissaappolis.github.io/React-Memory-Game/"
+                            path="https://weather-app-eight-ecru.vercel.app"
                         />
                         <ProjectItem 
                             src={memoryGame} 
